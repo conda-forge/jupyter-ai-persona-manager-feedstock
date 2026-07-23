@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: jupyter-ai-persona-manager
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jupyter-ai-persona-manager/jupyter_ai_persona_manager-${{ version }}.tar.gz
-  sha256: 14292e0c1dc5504d93b051efb875782aae6fc61763f50bdd7ff9df5803cd6f0a
+  sha256: 6afe0ada2e099af35bc59c14ac2fd12e7bb885395eb58f489420f9c6d8b88d95
 
 build:
   noarch: python

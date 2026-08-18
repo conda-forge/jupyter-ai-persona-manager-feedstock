@@ -25,10 +25,10 @@ requirements:
   run:
     - python >=${{ python_min }}
     - importlib-metadata >=4.0.0
-    - jupyter-ai-router >=0.0.4a0
+    - jupyter-ai-router >=0.0.4
     - jupyter_server_fileid >=0.9.0
     - jupyter_server >=2.4.0,<3
-    - jupyterlab-chat >=0.23.0a4
+    - jupyterlab-chat >=0.23.0
     - pycrdt >=0.10.0
     - pydantic >=2.0.0
 

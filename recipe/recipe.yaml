@@ -1,5 +1,5 @@
 context:
-  version: "0.2.2"
+  version: "0.3.0"
 
 package:
   name: jupyter-ai-persona-manager
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jupyter-ai-persona-manager/jupyter_ai_persona_manager-${{ version }}.tar.gz
-  sha256: 60908e899e1558b065c54d0e0b688ff115d4d6eac63752c28573e1cf3d02cb3b
+  sha256: 2ba49cf6034a00b08716d6353d09fd245a22d8b1cef0da3963a563fbc875c056
 
 build:
   noarch: python
@@ -19,8 +19,8 @@ requirements:
     - python ${{ python_min }}.*
     - pip
     - hatchling >=1.5.0
-    - jupyterlab >=4.0.0,<5
     - hatch-nodejs-version >=0.3.2
+    - jupyter-builder >=1.2.0,<2
     - hatch-jupyter-builder >=0.5
   run:
     - python >=${{ python_min }}

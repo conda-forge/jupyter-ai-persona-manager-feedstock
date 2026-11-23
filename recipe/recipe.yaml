@@ -27,7 +27,7 @@ requirements:
     - importlib-metadata >=4.0.0
     - jupyter-ai-router >=0.1.1
     - jupyter_server >=2.4.0,<3
-    - jupyterlab-chat >=0.25.0
+    - jupyterlab-chat >=0.26.0
     - pydantic >=2.0.0
 
 tests:

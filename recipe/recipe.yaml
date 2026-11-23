@@ -32,6 +32,9 @@ requirements:
 
 tests:
   - python:
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       imports:
         - jupyter_ai_persona_manager
       pip_check: true
